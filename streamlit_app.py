@@ -144,6 +144,9 @@ elif selected == "Skills & Projects":
         ]
         for skill in soft_skills:
             st.markdown(f"- {skill}")
+    
+    #Key Projects section
+
 # Contact section
 elif selected == "Contact":
     st.title("Contact Information")
